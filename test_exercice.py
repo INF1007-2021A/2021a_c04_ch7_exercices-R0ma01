@@ -14,6 +14,7 @@ class TestExercice(unittest.TestCase):
 		values = [i for i in range(10)]
 		expected = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 		output = [get_fibonacci_number(i) for i in range(10)]
+		print(output)
 		self.assertListEqual(
 			output,
 			expected
